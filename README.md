@@ -15,7 +15,9 @@ import
 --------------repeat
 
 Yep, thats not At All what my first creations looked like. That's exactly what this template looks like.
-A happy 'hello world' moves towards whatever coordinates you set in it's class definition. the event loop checks for
+A happy 'hello world' moves towards whatever coordinates you set in it's class definition. The 'SimpleObject'
+class contains (as seen in the screenshot) vars for current position, target (to move towards), speed. There's
+even a function to easily create a text object/('surface').  The event loop checks for
 mouse clicks and is already prepared to do stuff if user clicks on an object, or just return coordinates
 if they don't. The main loop is also listening for keyboard keys. Pressing 'f' will toggle you in or back out of
 full-screen mode.  Pressing 't' will bring up a prompt to enter text.  Pressing 'q' will immediately quit.  
