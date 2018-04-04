@@ -17,7 +17,9 @@ import
 Yep, thats not At All what my first creations looked like. That's exactly what this template looks like.
 A happy 'hello world' moves towards whatever coordinates you set in it's class definition. the event loop checks for
 mouse clicks and is already prepared to do stuff if user clicks on an object, or just return coordinates
-if they don't. Check out the picture:
+if they don't. The main loop is also listening for keyboard keys. Pressing 'f' will toggle you in or back out of
+full-screen mode.  Pressing 't' will bring up a prompt to enter text.  Pressing 'q' will immediately quit.  
+Check out the picture:
 
 
 ![](https://darknesseverytime.live/mirror/pygame%20boilerplate.png)
